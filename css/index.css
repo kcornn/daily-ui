@@ -2,3 +2,9 @@ p {
 	text-align: justify;
 	margin: 0;
 }
+
+.ui {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #777;
+}
