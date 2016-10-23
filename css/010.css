@@ -1,0 +1,48 @@
+#main .fa {
+	font-size: 36px;
+	line-height: 64px;
+	height: 64px;
+	width: 64px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	transition: all ease .5s;
+}
+
+#main {
+	-webkit-transform-style: preserve-3d;
+}
+
+#main #fb {
+	background-color: #3b5998;
+	-webkit-transform: translateX(-68px) translateZ(-10px);
+}
+
+#main #linkedin {
+	background-color: #0077b5;
+	-webkit-transform: translateX(-136px) translateZ(-20px);
+}
+
+#main #twitter {
+	background-color: #1da1f2;
+	-webkit-transform: translateX(-204px) translateZ(-30px);
+}
+
+#main #tumblr {
+	background-color: #35465c;
+	-webkit-transform: translateX(-272px) translateZ(-40px);
+}
+
+#main #pin {
+	background-color: #bd081c;
+	-webkit-transform: translateX(-340px) translateZ(-50px);
+}
+
+#main #g {
+	background-color: #dd4b39;
+	-webkit-transform: translateX(-408px) translateZ(-60px);
+}
+
+#main #mail {
+	-webkit-transform: translateX(-476px) translateZ(-70px);
+}

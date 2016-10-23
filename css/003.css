@@ -1,0 +1,52 @@
+body {
+	background-image: url("http://trunkweed.com/uploads/posts/images/907916-gorgeous-san-francisco-wallpaper_city.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+}
+
+#main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Impact;
+	letter-spacing: 2px;
+	font-size: 80px;
+}
+
+.is-loading h1 {
+	opacity: 0;
+}
+
+#main h1 {
+	transition: opacity 1.5s ease;
+	font-size: 80px;
+}
+
+section {
+	position: absolute;
+	right: 1%;
+	bottom: 0pt;
+	text-align: right;
+	font-family: Impact;
+}
+
+section a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	font-size: 60px;
+	opacity: 0.7;
+	-webkit-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
+}
+
+section a:hover {
+	color: #fff;
+	opacity: 0.3;
+	text-decoration: none;
+}

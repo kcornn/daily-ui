@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 7 | Settings</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/007.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/63f4c123c8.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+
+<body ng-app="app">
+	<div class="container">
+		<header class="row text-center">
+			<div class="col-md-12">
+				<h1>Day 7: Settings</h1>
+				<a href="index.html">return to main page</a>
+			</div>
+		</header>
+	</div>
+
+	<br>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div id="wrapper" ng-controller="Main as main">
+				<div id="header">
+					<h1>Ready to fly?</h1>
+				</div>
+				<div class="col">
+					<h2>Reserve ticket</h2>
+					<form name="form">
+						<label>Departure Date</label>
+						<input name="departDate" type="text" placeholder="YYYY-MM-DD" class="form-control" 
+							ng-class="{'alert-danger': form.departDate.$invalid && form.departDate.$touched, 'validated': form.departDate.$valid}"
+							ng-required="true"
+							ng-model="main.departDate"
+							ng-pattern="/((19|20)\d\d)-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])/" required>
+
+						<label>Return Date</label>
+						<input name="returnDate" type="text" placeholder="YYYY-MM-DD" class="form-control" 
+							ng-class="{'alert-danger': form.returnDate.$invalid && form.returnDate.$touched, 'validated': form.returnDate.$valid}"
+							ng-required="true"
+							ng-model="main.returnDate"
+							ng-pattern="/((19|20)\d\d)-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])/" required>
+
+						<label>Name</label>
+						<input name="passenger" type="text" class="form-control"
+							ng-class="{'alert-danger': form.passenger.$invalid && form.passenger.$touched, 'validated': form.passenger.$valid}"
+							ng-required="true"
+							ng-model="main.name" required>
+
+						<label>Email</label>
+						<input name="email" type="email" placeholder="you@me.com" class="form-control"
+							ng-class="{'alert-danger': form.email.$invalid && form.email.$touched, 'validated': form.email.$valid}" ng-required="true"
+							ng-model="main.email"  required>
+					</form>
+				</div>
+				<div class="col">
+					<h2>Your boarding pass</h2>
+					<div id="pass" ng-show="form.$valid">
+						<p>Depart: {{ main.departDate | date:'EEEE, MMMM d, yyyy' }}</p>
+						<p>Return: {{ main.returnDate | date:'EEEE, MMMM d, yyyy' }}</p>
+						<p>Passenger: {{ main.name }}</p>
+						<p>Email: {{ main.email }}</p>
+
+						<button type="submit">Book my ticket!</button>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script src="js/007.js"></script>
+</body>
+
+</html>

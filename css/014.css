@@ -1,0 +1,59 @@
+#main {
+	text-align: center;
+}
+
+#time {
+	font-size: 75px;
+	padding-bottom: 20px;
+}
+
+#time h2 {
+	font-size: 75px;
+	display: inline-block;
+}
+
+#controls-wrapper {
+	display: block;
+}
+
+#controls {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+}
+
+#controls p {
+	display: block;
+	font-style: italic;
+	margin: 0;
+}
+
+#controls div {
+	display: inline-block;
+	text-align: center;
+	font-size: 24px;
+}
+
+button {
+	outline: none;
+	border: none;
+	background-color: #fff;
+	width: 50px;
+}
+
+button:hover {
+	background-color: pink;
+	c
+}
+
+#start {
+	text-align: center;
+}
+
+#start, #reset {
+	border-radius: 100px;
+	background-color: pink;
+	font-size: 24px;
+	width: 200px;
+	height: 50px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 2 | Credit Card Checkout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/002.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/63f4c123c8.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header class="row text-center">
+			<div class="col-md-12">
+				<h1>Day 2: Credit Card Checkout</h1>
+				<a href="index.html">return to main page</a>
+			</div>
+		</header>
+	</div>
+
+	<br>
+
+	<div class="container" id="card">
+		<form id="checkout">
+			<label>CARD NUMBER</label>
+			<br>
+			<div class="number">
+				<input class="n" placeholder="1234" maxlength="4">
+				<input class="n" placeholder="5678" maxlength="4">
+				<input class="n" placeholder="1234" maxlength="4">
+				<input class="n" placeholder="5678" maxlength="4">
+			</div>
+
+			<label>CARDHOLDER</label>
+			<br>
+			<input class="name" type="text" required>
+			<br>
+
+			<label>EXPIRATION DATE</label>
+			<br>
+			<div class="exp">
+				<select id="one">
+					<option value="01">01</option>
+					<option value="02">02</option>
+					<option value="03">03</option>
+					<option value="04">04</option>
+					<option value="05">05</option>
+					<option value="06">06</option>
+					<option value="07">07</option>
+					<option value="08">08</option>
+					<option value="09">09</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+				</select>
+				<select id="two">
+					<option value="2016">2016</option>
+					<option value="2016">2017</option>
+					<option value="2016">2018</option>
+				</select>
+				<input class="cvc" placeholder="CVC" maxlength="3" required>
+			</div>
+		</form>
+
+		<br> 
+		<button class="pay">Checkout</button>
+	</div>
+
+
+<script src="js/002.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+#main,
+#main #content,
+#main #profile #name,
+#main #profile #bio {
+	width: 600px;
+}
+
+#main {
+	height: 400px;
+	padding: 0;
+}
+
+#main #profile {
+	height: 250px;
+	background-image: url("https://dailypost.files.wordpress.com/2016/06/city.jpeg?w=1200");
+	background-size: 100%;
+	border-radius: 5px 5px 0 0;
+	position: relative;
+}
+
+#main #profile #name,
+#main #profile #bio {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	text-align: center;
+	font-size: 24px;
+	bottom: 30px;
+	height: 40px;
+	line-height: 30px;
+	padding: 5px;
+}
+
+#main #profile #bio {
+	font-style: italic;
+	font-size: 16px;
+	bottom: 0;
+	height: 30px;
+	line-height: 20px;
+}
+
+#main #content {
+	height: 70px;
+	border: .5px solid #ccc;
+	border-radius: 0 0 5px 5px;
+}
+
+#main #content .num {
+	font-weight: bold;
+}
+
+#main #content ul {
+	margin: 0;
+	padding: 0;
+}
+
+#main #content ul li {
+	width: 199px;
+	float: left;
+	padding: 15px 0;
+	text-align: center;
+	list-style-type: none;
+}

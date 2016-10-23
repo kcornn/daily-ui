@@ -1,0 +1,68 @@
+{
+	"allUI": [
+		{
+			"key": 1,
+			"name": "1: Sign Up"
+		},
+		{
+			"key": 2,
+			"name": "2: Credit Card Checkout"
+		},
+		{
+			"key": 3,
+			"name": "3. Landing Page"
+		},
+		{
+			"key": 4,
+			"name": "4. Calculator"
+		},
+		{
+			"key": 5,
+			"name": "5. App Icon"
+		},
+		{
+			"key": 6,
+			"name": "6. User Profile"
+		},
+		{
+			"key": 7,
+			"name": "7. Settings"
+		},
+		{
+			"key": 8,
+			"name": "8. 404 Page"
+		},
+		{
+			"key": 9,
+			"name": "9. Music Player"
+		},
+		{
+			"key": 10,
+			"name": "10. Social Share"
+		},
+		{
+			"key": 11,
+			"name": "11. Flash Message"
+		},
+		{
+			"key": 12,
+			"name": "12. E-Commerce Shop"
+		},
+		{
+			"key": 13,
+			"name": "13. Direct Messaging"
+		},
+		{
+			"key": 14,
+			"name": "14. Countdown Timer"
+		},
+		{
+			"key": 15,
+			"name": "15. On/Off Switch"
+		},
+		{
+			"key": 16,
+			"name": "16. Pop-Up/Overlay"
+		}
+	]
+}

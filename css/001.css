@@ -1,0 +1,54 @@
+@font-face {
+	font-family: Billabong;
+	src: url(fonts/Billabong.ttf);
+}
+
+
+h1 {
+	text-align: center;
+}
+
+#main h1 {
+	font-family: Billabong;
+	text-align: center;
+	color: #0c0c0c;
+	font-size: 60px;
+	margin: 0;
+	padding: 10px;
+}
+
+#main {
+	background: -webkit-linear-gradient(-90deg, rgba(255,0,0,0.3), rgba(255,255,0,0.3));
+}
+
+#register {
+	width: 50%;
+	margin: 0 auto;
+}
+
+#register input {
+	width: 100%;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+
+#register #sign-up {
+	display: block;
+	margin: auto;
+	border: 1px solid #0c0c0c;
+	border-radius: 4px;
+	padding: 10px;
+	background: #fff;
+	transition: all 0.3s;
+	margin-bottom: 10px;
+}
+
+#register #sign-up:hover,
+#register #sign-up:focus,
+#register #sign-up:active {
+	background: #0c0c0c;
+	color: #fff;
+}

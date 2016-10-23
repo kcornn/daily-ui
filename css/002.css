@@ -1,0 +1,55 @@
+h1 {
+	text-align: center;
+}
+
+#card {
+	background: #4488dd;
+	height: 300px;
+	width: 350px;
+	border-radius: 8px;
+	font-weight: bolder;
+	color: #fff;
+	padding: 15px;
+}
+
+#card h1 {
+	margin: 0;
+}
+
+#card .pay {
+	width: 100%;
+	background-color: #52b260;
+	border: none;
+	border-radius: 10px;
+}
+
+#checkout {
+	max-width: 350px;
+	margin: 0 auto;
+	font-family: Arial;
+}
+
+#checkout input {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 5px;
+	margin-bottom: 5px;
+	width: 50px;
+	color: #0c0c0c;
+}
+
+#checkout .number .n {
+	width: calc(25% - 3px);
+	font-family: Courier;
+}
+
+#checkout .exp select,
+#checkout .exp .cvc {
+	width: calc(33% - 2px);
+	height: 31px;
+	color: #0c0c0c;
+}
+
+#checkout .exp .cvc {
+	font-family: Courier;
+}

@@ -1,0 +1,86 @@
+#main {
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 300px;
+	height: 300px;
+	font-family: 'Helvetica Neue', sans-serif;
+}
+
+#messages {
+	height: 300px;
+	overflow-y: scroll;
+	border: 1px solid #e8e8e8;
+	border-bottom: 2px solid #e8e8e8;
+}
+
+#messages #time {
+	width: 100%;
+	text-align: center;
+	color: #B4B4B4;
+	font-size: 12px;
+}
+
+#messages .sent,
+#messages .received {
+	display: inline-block;
+	width: 70%;
+	border-radius: 15px;
+	margin: 7px 0 7px 0;
+}
+
+#messages .sent p,
+#messages .received p {
+	margin: 8px 0 8px 0;
+	padding: 0 10px 0 10px;
+	height: 100%;
+}
+
+#messages .sent {
+	background-color: #007aff;
+	color: #fff;
+	float: right;
+}
+
+#messages .received {
+	background-color: #efeff4;
+	float: left;
+}
+
+#type {
+	display: inline-block;
+	height: 35px;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+
+#img {
+	margin-top: 5px;
+	padding-left: 5px;
+	padding-right: 15px;
+	font-size: 20px;
+}
+
+#text-input {
+	width: 180px;
+	border-radius: 8px;
+	padding: 1px;
+	border: 1px solid #e8e8e8;
+}
+
+#text-input:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+	padding-left: 5px;
+}
+
+#send {
+	font-size: 16px;
+	padding-left: 28px;
+	padding-right: 5px;
+	display: inline-block;
+	color: #0076FF;
+	cursor: pointer;
+}

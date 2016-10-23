@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Day 9 | Music Player</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/009.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/63f4c123c8.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.4/jquery.jcarousel.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header class="row text-center">
+			<div class="col-md-12">
+				<h1>Day 9: Music Player</h1>
+				<a href="index.html">return to main page</a>
+			</div>
+		</header>
+	</div>
+
+	<br>
+
+	<div class="container" id="main">
+		<div id="side">
+			<a href="#"><i class="fa fa-bars"></i></a>
+		</div>
+		<div id="img">
+			<div class="jcarousel">
+				<ul>
+					<li><img src="http://a5.mzstatic.com/us/r30/Music62/v4/cf/1f/bb/cf1fbb13-c7ee-ad1a-2648-5f2b5f5cb8a1/cover170x170.jpeg"></li>
+					<li><img src="http://a4.mzstatic.com/us/r30/Music5/v4/cd/f0/d7/cdf0d753-671f-0de2-baed-4bbe2c6978cb/cover170x170.jpeg"></li>
+					<li><img src="http://a5.mzstatic.com/us/r30/Music/v4/cf/53/a0/cf53a0dd-e366-3b6a-ed70-1965c47ceb2c/cover170x170.jpeg"></li>
+				</ul>
+				<ul class="jcarousel-pagination"></ul>
+			</div>
+		</div>
+		<div id="info">
+			<h3 id="song">Promise (I'll Be)</h3>
+			<p id="artist">2PM</p>
+		</div>
+		<div id="controls">
+			<a href="#" id="prev"><i class="fa fa-step-backward"></i></a>
+			<a href="#" id="play"><i class="fa fa-play"></i></a>
+			<a href="#" id="next"><i class="fa fa-step-forward"></i></a>
+		</div>
+		<div id="time">
+			<label for="fader">1:00</label>
+			<input type="range" min="0" max="100" value="40" id="fader" step="1">
+			<output for="fader" class="duration"></output>
+		</div>
+
+	</div>
+	<audio class="song-promise" src="song/Promise (I'll Be).mp3" type="audio/mpeg"></audio>
+	<audio class="song-myhouse" src="song/My House.mp3" type="audio/mpeg"></audio>
+	<audio class="song-handsup" src="song/Hands Up.mp3" type="audio/mpeg"></audio>
+<script src="js/009.js"></script>
+</body>
+
+</html>

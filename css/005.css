@@ -1,0 +1,28 @@
+.main {
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main #day-of-week {
+	background-color: #d9383c;
+	color: #fff;
+	border-radius: 20px 20px 0 0;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	position: relative;
+}
+
+.main #num {
+	background-color: #fff;
+	color: #0c0c0c;
+	font-weight: bold;
+	font-size: 96px;
+	border-radius: 0 0 20px 20px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	line-height: 150px;
+}

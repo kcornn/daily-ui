@@ -1,0 +1,83 @@
+body {
+	background-image: url("http://67.media.tumblr.com/7ed2dab49586c00956a0bb491d1b5538/tumblr_mlnzx84Ur21qzw1qyo1_500.gif");
+	background-repeat: no-repeat;
+    background-size: cover;
+  	background-attachment: fixed;
+    background-position: center;
+}
+
+#tumblr-img {
+	height: 50px;
+}
+
+hr {
+	margin: 0;
+	size: 0.5px;
+}
+
+.header-container {
+	align-items: center;
+}
+
+.header {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.search-div {
+	width: 540px;
+}
+
+.search {
+	padding: 7px;
+	border: 0;
+	border-radius: 4px;
+	width: 500px;
+}
+
+.header-button {
+	color: #fff;
+	display: inline-block;
+	background-color: #9da6af;
+	border: 1px solid #9da6af;
+	border-radius: 4px;
+	padding: 7px 10px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.header-button:hover,
+.header-button:focus,
+.header-button:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+.sign-up {
+	background-color: #529ecc;
+	border: 1px solid #529ecc;
+}
+
+.message {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 20px;
+	max-width: 480px;
+}
+
+.message .error-content h1,
+.message .error-content .text {
+	text-align: center;
+	color: #fff;
+}
+
+.message .error-content .text {
+	font-size: 16px;
+}
