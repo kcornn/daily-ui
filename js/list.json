@@ -7,63 +7,78 @@
 		},
 		{
 			"key": 2,
-			"name": "2: Credit Card Checkout"
+			"name": "2: Credit Card Checkout",
+			"url": "/daily-ui/002.html"
 		},
 		{
 			"key": 3,
-			"name": "3. Landing Page"
+			"name": "3. Landing Page",
+			"url": "/daily-ui/003.html"
 		},
 		{
 			"key": 4,
-			"name": "4. Calculator"
+			"name": "4. Calculator",
+			"url": "/daily-ui/004.html"
 		},
 		{
 			"key": 5,
-			"name": "5. App Icon"
+			"name": "5. App Icon",
+			"url": "/daily-ui/005.html"
 		},
 		{
 			"key": 6,
-			"name": "6. User Profile"
+			"name": "6. User Profile",
+			"url": "/daily-ui/006.html"
 		},
 		{
 			"key": 7,
-			"name": "7. Settings"
+			"name": "7. Settings",
+			"url": "/daily-ui/007.html"
 		},
 		{
 			"key": 8,
-			"name": "8. 404 Page"
+			"name": "8. 404 Page",
+			"url": "/daily-ui/008.html"
 		},
 		{
 			"key": 9,
-			"name": "9. Music Player"
+			"name": "9. Music Player",
+			"url": "/daily-ui/009.html"
 		},
 		{
 			"key": 10,
-			"name": "10. Social Share"
+			"name": "10. Social Share",
+			"url": "/daily-ui/010.html"
 		},
 		{
 			"key": 11,
-			"name": "11. Flash Message"
+			"name": "11. Flash Message",
+			"url": "/daily-ui/011.html"
 		},
 		{
 			"key": 12,
-			"name": "12. E-Commerce Shop"
+			"name": "12. E-Commerce Shop",
+			"url": "/daily-ui/012.html"
 		},
 		{
 			"key": 13,
-			"name": "13. Direct Messaging"
+			"name": "13. Direct Messaging",
+			"url": "/daily-ui/013.html"
 		},
 		{
 			"key": 14,
-			"name": "14. Countdown Timer"
+			"name": "14. Countdown Timer",
+			"url": "/daily-ui/014.html"
 		},
 		{
 			"key": 15,
-			"name": "15. On/Off Switch"
+			"name": "15. On/Off Switch",
+			"url": "/daily-ui/015.html"
 		},
 		{
 			"key": 16,
-			"name": "16. Pop-Up/Overlay"
+			"name": "16. Pop-Up/Overlay",
+			"url": "/daily-ui/016.html"
 		}
 	]
 }
