@@ -10,6 +10,7 @@ function listAll(list) {
 			'<div class="col-md-4 ui">' +
 				'<h3>' + o.name + '</h3>' +
 				'<a href="/daily-ui/' + o.url + '">view project</a>' +
+				'<img src="/daily-ui/pix/' + o.img + '">' +
 			'</div>'
 		);
 	});

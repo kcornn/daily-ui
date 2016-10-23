@@ -3,82 +3,98 @@
 		{
 			"key": 1,
 			"name": "1: Sign Up",
-			"url": "001.html"
+			"url": "001.html",
+			"img": "001.png"
 		},
 		{
 			"key": 2,
 			"name": "2: Credit Card Checkout",
-			"url": "002.html"
+			"url": "002.html",
+			"img": "002.png"
 		},
 		{
 			"key": 3,
 			"name": "3. Landing Page",
-			"url": "003.html"
+			"url": "003.html",
+			"img": "003.png"
 		},
 		{
 			"key": 4,
 			"name": "4. Calculator",
-			"url": "004.html"
+			"url": "004.html",
+			"img": "004.png"
 		},
 		{
 			"key": 5,
 			"name": "5. App Icon",
-			"url": "005.html"
+			"url": "005.html",
+			"img": "005.png"
 		},
 		{
 			"key": 6,
 			"name": "6. User Profile",
-			"url": "006.html"
+			"url": "006.html",
+			"img": "006.png"
 		},
 		{
 			"key": 7,
 			"name": "7. Settings",
-			"url": "007.html"
+			"url": "007.html",
+			"img": "007.png"
 		},
 		{
 			"key": 8,
 			"name": "8. 404 Page",
-			"url": "008.html"
+			"url": "008.html",
+			"img": "008.png"
 		},
 		{
 			"key": 9,
 			"name": "9. Music Player",
-			"url": "009.html"
+			"url": "009.html",
+			"img": "009.png"
 		},
 		{
 			"key": 10,
 			"name": "10. Social Share",
-			"url": "010.html"
+			"url": "010.html",
+			"img": "010.png"
 		},
 		{
 			"key": 11,
 			"name": "11. Flash Message",
-			"url": "011.html"
+			"url": "011.html",
+			"img": "011.png"
 		},
 		{
 			"key": 12,
 			"name": "12. E-Commerce Shop",
-			"url": "012.html"
+			"url": "012.html",
+			"img": "012.png"
 		},
 		{
 			"key": 13,
 			"name": "13. Direct Messaging",
-			"url": "013.html"
+			"url": "013.html",
+			"img": "013.png"
 		},
 		{
 			"key": 14,
 			"name": "14. Countdown Timer",
-			"url": "014.html"
+			"url": "014.html",
+			"img": "014.png"
 		},
 		{
 			"key": 15,
 			"name": "15. On/Off Switch",
-			"url": "015.html"
+			"url": "015.html",
+			"img": "015.png"
 		},
 		{
 			"key": 16,
 			"name": "16. Pop-Up/Overlay",
-			"url": "016.html"
+			"url": "016.html",
+			"img": "016.png"
 		}
 	]
 }
