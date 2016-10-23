@@ -7,7 +7,7 @@ $(document).ready(function () {
 function listAll(list) {
 	list.forEach(function(o) {
 		$("#all-ui").append(
-			'<div class="col-md-4 col-sm-6" ui>' +
+			'<div class="col-md-4 ui>' +
 				'<h3>' + o.name + '</h3>' +
 				/*'<a href="' + o.url + '">view</a>' +*/
 			'</div>'
