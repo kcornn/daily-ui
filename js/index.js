@@ -7,7 +7,10 @@ $(document).ready(function () {
 function listAll(list) {
 	list.forEach(function(o) {
 		$("#all-ui").append(
-			'<h3>' + o.name + '</h3>'
+			'<div class="col-md-6" ui>' +
+				'<h3>' + o.name + '</h3>' +
+				'<a href="/daily-ui/' + o.key + '">view</a>' +
+			'</div>'
 		);
 	});
 }
