@@ -1,67 +1,68 @@
 {
 	"allUI": [
 		{
-			"key": "001",
+			"key": 1,
 			"name": "1: Sign Up",
+			"url": "/daily-ui/001.html"
 		},
 		{
-			"key": 002,
+			"key": 2,
 			"name": "2: Credit Card Checkout"
 		},
 		{
-			"key": 003,
+			"key": 3,
 			"name": "3. Landing Page"
 		},
 		{
-			"key": 004,
+			"key": 4,
 			"name": "4. Calculator"
 		},
 		{
-			"key": 005,
+			"key": 5,
 			"name": "5. App Icon"
 		},
 		{
-			"key": 006,
+			"key": 6,
 			"name": "6. User Profile"
 		},
 		{
-			"key": 007,
+			"key": 7,
 			"name": "7. Settings"
 		},
 		{
-			"key": 008,
+			"key": 8,
 			"name": "8. 404 Page"
 		},
 		{
-			"key": 009,
+			"key": 9,
 			"name": "9. Music Player"
 		},
 		{
-			"key": 010,
+			"key": 10,
 			"name": "10. Social Share"
 		},
 		{
-			"key": 011,
+			"key": 11,
 			"name": "11. Flash Message"
 		},
 		{
-			"key": 012,
+			"key": 12,
 			"name": "12. E-Commerce Shop"
 		},
 		{
-			"key": 013,
+			"key": 13,
 			"name": "13. Direct Messaging"
 		},
 		{
-			"key": 014,
+			"key": 14,
 			"name": "14. Countdown Timer"
 		},
 		{
-			"key": 015,
+			"key": 15,
 			"name": "15. On/Off Switch"
 		},
 		{
-			"key": 016,
+			"key": 16,
 			"name": "16. Pop-Up/Overlay"
 		}
 	]
