@@ -9,7 +9,7 @@ function listAll(list) {
 		$("#all-ui").append(
 			'<div class="col-md-6" ui>' +
 				'<h3>' + o.name + '</h3>' +
-				'<a href="/daily-ui/' + o.key + '">view</a>' +
+				'<a href="/daily-ui/' + o.key + '.html">view</a>' +
 			'</div>'
 		);
 	});
